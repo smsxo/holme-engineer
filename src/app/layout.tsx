@@ -14,7 +14,10 @@ const inter = Inter({
 });
 
 export const viewport: Viewport = {
-  themeColor: "#0a0a0f",
+  themeColor: [
+    { media: "(prefers-color-scheme: dark)", color: "#0a0a0f" },
+    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
+  ],
 };
 
 export const metadata: Metadata = {
@@ -38,10 +41,17 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
+    url: "https://holme-engineering.com",
     siteName: "Holme Engineering AS",
+    title: "Holme Engineering — Maritime & Energy Systems",
+    description:
+      "Norwegian engineering excellence in power management, energy storage, and automation — 200+ systems across 30+ countries.",
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
+    title: "Holme Engineering — Maritime & Energy Systems",
+    description:
+      "Power management, energy storage & automation for maritime and energy industries. Norwegian precision, globally deployed.",
   },
   robots: {
     index: true,

@@ -8,6 +8,12 @@ export const metadata: Metadata = {
     title: "Engineering Services — Holme Engineering AS",
     description:
       "Full spectrum of electrical and automation engineering for maritime and energy industries.",
+    url: "https://holme-engineering.com/services",
+  },
+  twitter: {
+    title: "Engineering Services — Holme Engineering",
+    description:
+      "PMS, ESS, IAS, propulsion monitoring, shore power, micro grids & autonomous marine solutions.",
   },
 };
 

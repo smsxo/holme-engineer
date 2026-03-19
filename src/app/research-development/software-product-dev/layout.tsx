@@ -8,6 +8,12 @@ export const metadata: Metadata = {
     title: "Software & Product Dev — Holme Engineering AS",
     description:
       "Autonomous marine solutions and cutting-edge software product development for the maritime industry.",
+    url: "https://holme-engineering.com/research-development/software-product-dev",
+  },
+  twitter: {
+    title: "Software & Product Dev — Holme Engineering",
+    description:
+      "AI-driven autonomous navigation & next-gen vessel software development.",
   },
 };
 

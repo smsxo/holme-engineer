@@ -8,6 +8,12 @@ export const metadata: Metadata = {
     title: "About Us — Holme Engineering AS",
     description:
       "Norwegian engineering company specializing in power management, energy storage, and automation for maritime and energy industries.",
+    url: "https://holme-engineering.com/about",
+  },
+  twitter: {
+    title: "About Holme Engineering — Norwegian Maritime Engineering",
+    description:
+      "15+ years delivering power management, ESS & automation solutions across 30+ countries.",
   },
 };
 

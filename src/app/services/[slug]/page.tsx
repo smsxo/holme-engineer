@@ -38,8 +38,16 @@ export async function generateMetadata({
   return {
     title: `${service.title} — Holme Engineering`,
     description: service.description,
+    alternates: {
+      canonical: `https://holme-engineering.com/services/${slug}`,
+    },
     openGraph: {
       title: `${service.title} — Holme Engineering AS`,
+      description: service.description,
+      url: `https://holme-engineering.com/services/${slug}`,
+    },
+    twitter: {
+      title: `${service.title} — Holme Engineering`,
       description: service.description,
     },
   };

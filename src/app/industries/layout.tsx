@@ -8,6 +8,12 @@ export const metadata: Metadata = {
     title: "Industries We Serve — Holme Engineering AS",
     description:
       "Engineering solutions for the most demanding environments — from Arctic waters to offshore platforms.",
+    url: "https://holme-engineering.com/industries",
+  },
+  twitter: {
+    title: "Industries — Holme Engineering",
+    description:
+      "Maritime, offshore, renewables, defense & critical infrastructure — engineered for extreme demands.",
   },
 };
 

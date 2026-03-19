@@ -19,10 +19,19 @@ const CTASection = dynamic(
 );
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://holme-engineering.com",
+  },
   openGraph: {
-    title: "Holme Engineering AS — Maritime & Energy Systems",
+    title: "Holme Engineering — Maritime & Energy Systems",
     description:
-      "Norwegian engineering excellence in power management, energy storage, and automation — 200+ projects delivered across 30+ countries.",
+      "Norwegian engineering excellence in power management, energy storage, and automation — 200+ systems delivered across 30+ countries.",
+    url: "https://holme-engineering.com",
+  },
+  twitter: {
+    title: "Holme Engineering — Maritime & Energy Systems",
+    description:
+      "Power management, energy storage & automation — Norwegian precision, globally deployed.",
   },
 };
 

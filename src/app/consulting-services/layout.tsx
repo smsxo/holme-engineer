@@ -8,6 +8,12 @@ export const metadata: Metadata = {
     title: "Consulting Services — Holme Engineering AS",
     description:
       "Marine engineering consulting: propulsion systems, commissioning, system design, cyber security, and integrated automation.",
+    url: "https://holme-engineering.com/consulting-services",
+  },
+  twitter: {
+    title: "Marine Consulting — Holme Engineering",
+    description:
+      "Expert consulting for propulsion, commissioning, system design & cyber security in maritime.",
   },
 };
 

@@ -8,6 +8,12 @@ export const metadata: Metadata = {
     title: "Contact Us — Holme Engineering AS",
     description:
       "Reach out for project inquiries, partnerships, or technical consultation.",
+    url: "https://holme-engineering.com/contact",
+  },
+  twitter: {
+    title: "Contact Holme Engineering",
+    description:
+      "Start your next maritime or energy project. Get in touch with our engineering team.",
   },
 };
 

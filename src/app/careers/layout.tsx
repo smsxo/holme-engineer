@@ -8,6 +8,12 @@ export const metadata: Metadata = {
     title: "Careers — Holme Engineering AS",
     description:
       "Join a team of world-class engineers working on cutting-edge maritime and energy solutions.",
+    url: "https://holme-engineering.com/careers",
+  },
+  twitter: {
+    title: "Careers at Holme Engineering",
+    description:
+      "Join world-class engineers building the future of maritime power & automation.",
   },
 };
 

@@ -8,6 +8,12 @@ export const metadata: Metadata = {
     title: "News — Holme Engineering AS",
     description:
       "Stay updated with the latest engineering developments from Holme Engineering.",
+    url: "https://holme-engineering.com/news",
+  },
+  twitter: {
+    title: "News — Holme Engineering",
+    description:
+      "Latest developments in maritime engineering, energy systems & autonomous solutions.",
   },
 };
 
