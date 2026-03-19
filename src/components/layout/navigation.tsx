@@ -73,14 +73,9 @@ export function Navigation() {
             aria-label="Holme Engineering — Home"
           >
             <Logo priority className="h-8 md:h-9 lg:h-10" />
-            <div className="flex flex-col">
-              <span className="text-sm font-semibold text-foreground leading-tight tracking-tight">
-                {company.name}
-              </span>
-              <span className="text-[10px] font-medium uppercase tracking-[0.2em] text-foreground-muted">
-                AS
-              </span>
-            </div>
+            <span className="text-sm font-semibold text-foreground leading-tight tracking-tight">
+              {company.name}
+            </span>
           </Link>
 
           {/* Desktop Nav — centered */}

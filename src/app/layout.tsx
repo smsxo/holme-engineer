@@ -21,7 +21,11 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://holme-engineering.com"),
+  metadataBase: new URL(
+    process.env.VERCEL_PROJECT_PRODUCTION_URL
+      ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+      : "https://holme-engineering.com",
+  ),
   title: {
     default: "Holme Engineering AS — Maritime & Energy Systems",
     template: "%s | Holme Engineering AS",
